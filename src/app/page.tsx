@@ -15,9 +15,9 @@ export default function Home() {
       <main className="w-full">
         <div className=" p-5 md:p-5 ">
         <Hero />
+        <About />
         <SkillsGrid />
         <Experience />
-        <About />
         <Projects/>
         <Contact/>
         <Footer/>
