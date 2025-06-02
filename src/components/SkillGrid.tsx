@@ -74,14 +74,14 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
             onMouseLeave={() => setMouseEnter(false)}
         >
             <Card
-            className={`${theme === "dark"
-                ? mouseEnter
-                    ? "bg-white border-white"
-                    : "bg-black border-white"
-                : mouseEnter
-                    ? "bg-black border-black"
-                    : "bg-white border-black"
-            }`}
+                className={`${theme === "dark"
+                    ? mouseEnter
+                        ? "bg-white border-white"
+                        : "bg-black border-white"
+                    : mouseEnter
+                        ? "bg-black border-black"
+                        : "bg-white border-black"
+                    }`}
             >
                 <CardContent className="flex flex-col items-center justify-cente">
                     <Image src={currentIcon} alt={skill.name} width={90} height={90} />
@@ -89,8 +89,8 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
                 <CardFooter className="justify-center">
                     <h6
                         className={`text-sm font-bold uppercase tracking-wide font-sora ${mouseEnter
-                                ? "text-white dark:text-black"
-                                : "text-black dark:text-white"
+                            ? "text-white dark:text-black"
+                            : "text-black dark:text-white"
                             }`}
                     >
                         {skill.name}

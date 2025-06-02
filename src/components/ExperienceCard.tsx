@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useTheme } from "next-themes";
 import Image, { StaticImageData } from "next/image";
 import complogo from "../assets/images/comp.png";
+import complogo3 from "../assets/images/hy.png"
 import complogo1 from "../assets/images/ql.png";
 
 type ExperienceItem = {
@@ -15,10 +16,16 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = [
   {
+    icon: complogo3,
+    title: "Junior Software Development Engineer at Hyscaler Pvt",
+    description: `Assisted in developing and maintaining web applications using the MERN stack, enhancing functionality and user experience. Collaborated with senior developers to identify and fix bugs, ensuring smooth software performance. Actively participated in agile processes, contributing to sprint planning, daily stand-ups, and code reviews for timely project delivery.`,
+    date: "Dec 2024 - Present",
+  },
+  {
     icon: complogo,
     title: "Junior Software Engineer at Technoboot Pvt Ltd",
     description: `Assisted in developing and maintaining web applications using the MERN stack, enhancing functionality and user experience. Collaborated with senior developers to identify and fix bugs, ensuring smooth software performance. Actively participated in agile processes, contributing to sprint planning, daily stand-ups, and code reviews for timely project delivery.`,
-    date: "Jul 2023 - Present",
+    date: "Jul 2023 - Dec 2024",
   },
   {
     icon: complogo,
