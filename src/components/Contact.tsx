@@ -53,7 +53,7 @@ export default function Contact() {
     }
   ];
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e:any) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
